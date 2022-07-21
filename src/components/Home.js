@@ -10,7 +10,8 @@ import { useHomeFetch } from '../hooks/useHomeFetch';
 import NoImage from '../images/no_image.jpg';
 
 import Grid from './Grid';
-import Thumbnails from './Thumbnails'
+import Thumbnails from './Thumbnails';
+import Spinner from './Spinner';
 
 const Home = () => {
 
@@ -45,7 +46,7 @@ const Home = () => {
           />
             ))}
         </Grid>
-
+        <Spinner />
 
         </>
     )
